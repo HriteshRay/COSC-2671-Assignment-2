@@ -1,10 +1,8 @@
-# COSC-2671-Assignment-2
 ================================================================================
 COSC 2671 — Assignment 2
 Access Demonstration File
 ================================================================================
 
-Student Number  : s4134744
 Group           : PG Group 24
 Team Members    : Hritesh Ray (s4134744) · Abhijeet Ghadge (s4135096)
 
@@ -12,21 +10,23 @@ Team Members    : Hritesh Ray (s4134744) · Abhijeet Ghadge (s4135096)
 SHARED REPOSITORY / DRIVE ACCESS
 ================================================================================
 
-Platform        : Google Drive (or GitHub — whichever you use)
-Access link     : https://drive.google.com/drive/folders/YOUR_LINK_HERE
+Platform        : Github
+Access link     : https://github.com/HriteshRay/COSC-2671-Assignment-2
 Permissions     : Anyone with the link can view (no sign-in required)
 
 ================================================================================
-CONTENTS OF SHARED DRIVE/REPOSITORY
+CONTENTS OF REPOSITORY
 ================================================================================
 
-The shared folder contains the following files:
+The repository contains the following files:
 
-  Social_Media_Assignment_2.ipynb   — Final Jupyter notebook
+ s4134744_PG_Group24.ipynb    — Final Jupyter notebook
   data/
-    gh_api_full.csv          — Full dataset
-    centrality_scores.csv           — Centrality + role classifications
-    topic_info.csv                  — BERTopic topic information
+    gh_api_full.csv           — Full collected dataset (3,732 events, 1.59 MB)
+    gh_pilot.csv              — Pilot test dataset (382 events, 2-day sample)
+    centrality_scores.csv     — Centrality + community + role classifications
+    text_with_topics.csv      — Text with BERTopic labels + sentiment scores
+    topic_info.csv            — BERTopic topic information (15 topics)
   outputs/
     network_layer1.png              — Network visualisation
     topic_evolution.png             — Topic evolution chart
